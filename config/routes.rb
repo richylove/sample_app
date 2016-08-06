@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
 
-  match '/contact', :to => 'pages#contact'
-  match '/about',   :to => 'pages#about'
-  match '/help',    :to => 'pages#help'
+  get "users/new"
+  get '/signup',  :to => 'users#new', as: 'signup'
+
+  get '/contact', :to => 'pages#contact', as: 'contact'
+  get '/about',   :to => 'pages#about', as: 'about'
+  get '/help',    :to => 'pages#help', as: 'help'
 
   root :to => 'pages#home'
 

@@ -1,0 +1,100 @@
+.container {
+  width: 710px;
+}
+
+body {
+  background: #fff;
+}
+
+header {
+  padding-top: 20px;
+}
+
+header img {
+  padding: 1em;
+  background: #fff;
+}
+
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: #fff;
+}
+
+section h1 {
+  font-size: 200%;
+}
+
+/* Liens */
+
+a {
+  color: #09c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #069;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #069;
+}
+
+/* Navigation */
+
+nav {
+  float: right;
+  /*border: 1px solid red;*/
+  margin: 14px;
+}
+
+nav {
+  background-color: white;
+  padding: 0 0.8em;
+  white-space: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+  font-size: 16px;
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: #09c;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Bouton inscription */
+
+a.signup_button {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+/* footer */
+
+footer {
+  margin-top: 40px;
+  width: 710px;
+}
+
+footer nav ul li a{
+  font-size: 12px;
+}
